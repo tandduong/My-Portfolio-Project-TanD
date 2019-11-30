@@ -1,0 +1,517 @@
+/*hiding the scrollbar*/
+::-webkit-scrollbar {
+  display: none;
+}
+
+.mainpage-grid{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+
+.intro-text{
+  background-color: none;
+  opacity: .7;
+  width: 75%;
+  margin: auto;
+  text-transform: uppercase;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.intro-text h2 {
+  font-size: 40px;
+  color: white;
+  letter-spacing: 3px;
+  z-index: 2;
+}
+
+.intro-text h3{
+  font-size: 30px;
+  color: white;
+  letter-spacing: 3px;
+  z-index: 2;
+}
+
+.intro-text h4{
+  font-size: 20px;
+  color: white;
+  letter-spacing: 3px;
+  z-index: 2;
+}
+.intro-text hr{
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+  z-index: 2;
+}
+
+.intro-text p{
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+  letter-spacing: 3px;
+  z-index: 2;
+}
+
+.social-media{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-media i{
+  color: white;
+  font-size: 3em;
+  padding-bottom: 15px;
+  padding: 8px;
+}
+
+@media screen and (max-width: 1000px){
+  .intro-text h3{
+    font-size: 25px;
+  }
+
+  .intro-text h4{
+    font-size: 15px;
+  }
+
+  .intro-text p{
+    font-size: 15px;
+  }
+
+  .social-media i{
+    font-size: 2em;
+    padding: 4px;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .intro-text p{
+    font-size: 10px;
+  }
+
+  .social-media i{
+    font-size: 1em;
+    padding: 3px;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+}
+
+/*resume page css */
+.resume-right{
+  color: whitesmoke;
+  padding-top: 15px;
+}
+
+.resume-left{
+  background-color: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  opacity: .7;
+  border-radius: 10px;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.resume-left img{
+  height: 200px;
+  border-radius: 55%;
+  padding-top: 15px;
+}
+
+.resume-left h2{
+  padding-top: .5em;
+}
+
+.resume-left a{
+  text-decoration: none;
+}
+
+.resume-left .social-media i{
+  color: black; 
+}
+
+.resume-left p{
+  padding-top: 10px;
+}
+
+.resume-left li{
+  list-style-type: none;
+}
+
+.resume-left h2,.resume-left h4,.resume-left h5,.resume-left a{
+  color: black;
+}
+
+.resume-left hr{
+  border-top: 3px solid #4BC0C8;
+  width: 50%;
+  margin: auto;
+}
+
+.resume-right hr{
+  border-top: 3px solid black;
+  width: 50%
+}
+
+.resume-right h2{
+  font-family: 'Barlow';
+}
+
+/*edu + exp part*/
+
+.edu-right h4,.exp-right h4{
+  margin-top: 0px;
+}
+
+/*skill part*/
+
+.skill-textbox{
+  display: flex;
+}
+
+.progressbar{
+  margin: auto;
+  width: 75%;
+}
+
+@media screen and (max-width: 1200px){
+  .resume-left p{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1020px){
+  .resume-left img{
+    height: 150px;;
+  }
+
+  .resume-left h2{
+    font-size: 30px;
+  }
+
+  .resume-left h4{
+    font-size: 16px;
+  }
+
+  .resume-left p{
+    font-size: 10px;
+  }
+  
+  .obj{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 839px){
+  .resume-left h2,.resume-left p,.resume-left h5, .resume-left hr,.courses{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 277px){
+  .resume-left img{
+    height: 100px;
+  }
+  .resume-left h4{
+    font-size: 12px;
+  }
+}
+
+/*resume page css */
+
+/* contact page css*/
+
+.contact-textbox{
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+  background: #FEAC5E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  
+}
+
+.contact-grid{
+  opacity: .7;
+  border-radius: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  justify-content: center;
+  width: 80%;
+  height: 490px;
+  color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  
+}
+
+.contact-grid h2{
+  font-family: 'Barlow', sans-serif;
+}
+
+.contact-grid p{
+  font-family: 'Indie Flower', cursive;
+  font-size: 18px;
+}
+
+.contact-grid hr{
+  border-top: 5px dotted black;
+  margin: auto;
+  width: 50%;
+}
+
+.contact-grid img{
+  height: 255px;
+  border-radius: 50%;
+}
+
+.contact-grid p{
+  width: 85%; 
+  margin: auto; 
+  padding-top: 1em;
+}
+
+.contacts-list i{
+  padding-right: 5rem;
+  padding-top: 8px;
+  font-size: 30px;
+}
+
+.contacts-list label{
+  font-size: 30px;
+}
+
+@media screen and (max-width: 1400px){
+  .contacts-list i{
+    margin: auto;
+    font-size: 20px;
+  }
+
+  .contacts-list label{
+    font-size: 20px;
+    margin: auto;
+  }
+
+}
+
+@media screen and (max-width: 1007px){
+  .contacts-list i{
+    margin: auto;
+    font-size: 15px;
+  }
+
+  .contacts-list label{
+    font-size: 15px;
+    margin: auto;
+  }
+
+}
+
+@media screen and (max-width: 839px){
+ .contact-grid h2,.contact-grid p {
+   display: none;
+ }
+ 
+ .contact-grid img{
+   height: 150px;
+ }
+}
+
+@media screen and (max-width: 559px){
+  .contact-grid img{
+    height: 120px;
+  }
+
+  .contacts-list i, .contacts-list label{
+    font-size: 12px
+  } 
+}
+
+@media screen and (max-width: 559px){
+  .contact-grid img{
+    height: 100px;
+   }
+
+   .contacts-list i{
+     display: none;
+   }
+  
+  .contacts-list label{
+    font-size: 12px
+  } 
+  }
+/* contact page css*/
+
+/*about page css*/
+.about-grid{
+  background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 100%;
+}
+
+.about-grid .img-1{
+ border-radius: 50%;
+ height: 120px;
+ margin: auto;
+ box-shadow: 0 5px 3px rgba(0, 0, 0, 0.5);
+}
+
+.about-grid .img-2{
+  margin:auto;
+  margin-top: 80px;
+}
+
+hr{
+  width: 100%;
+  margin:auto;
+}
+
+.about-profile{
+  float: left;
+}
+
+.about-profile i{
+  padding-right: 3rem;
+  padding-top: 3px;
+  font-size: 30px;
+}
+
+.vl{
+  border-left: 1px solid rgb(185, 183, 183);
+  height: 50em;
+  position: absolute;
+  left: 33.33%;
+  margin-left: -3px;
+  margin-top: 3em;
+  top: 0;
+}
+
+.about-profile label{
+  font-family: "Barlow";
+}
+
+.about-intro p,.about-intro h2,.about-intro h4{
+  font-family: "Indie Flower";
+}
+
+.about-intro p{
+  font-size: 1.5em;
+}
+
+.about-profile a{
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 1200px){
+  .about-profile i{
+    font-size: 16px;
+  }
+
+  .about-intro{
+    font-size: 0.7em;
+  }
+}
+
+@media screen and (max-width: 1025px){
+  .img-1{
+    display:none;
+  }
+
+  .img-2{
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 973px){
+  .about-profile i{
+    font-size: 10px;
+  }
+  .about-profile label {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 840px){
+  .vl{
+    display: none;
+  }
+
+  .about-profile i {
+    font-size: 30px;
+  }
+
+  .about-profile label{
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 653px){
+  .about-profile{
+    display: none;
+  }
+}
+
+/*about page css*/
+
+/*project page css*/
+.proj-header label{
+  color:whitesmoke;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.proj-grid{
+  display: flex;
+}
+
+.card-1{
+  margin: auto;
+  min-width: 300px;
+}
+
+.card-1-title{
+  color: black;
+  height: 175px;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover;
+
+}
+
+.card-1-button a{
+  text-decoration: none;
+  color: rgb(34, 125, 178);
+}
+
+.card-1-menu{
+  color: black;
+}
+
+.card-2 h2{
+  color: whitesmoke;
+}
+
+@media screen and (max-width: 1080px){
+  .proj-grid{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-1{
+    margin-top: 20px;
+  }
+}
+/*project page css*/
