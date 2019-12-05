@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom';
 
 function App() {
   return (
-    <div style={{height: '625px', position: 'relative'}}>
+    <div style={{height: '100vh', position: 'relative'}}>
     <Layout style={AppStyle}>
         <Header className="main-color" transparent title="My Portfolio" style={{color: 'white'}}>
             <Navigation className="title">
