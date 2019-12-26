@@ -121,7 +121,7 @@ class Resume extends Component {
 
             <Skills
               skill="CSS/SASS"
-              progress={88}
+              progress={90}
             />
 
             <Skills
@@ -136,7 +136,7 @@ class Resume extends Component {
 
             <Skills
               skill="NodeJs"
-              progress={77}
+              progress={70}
             />
           </Cell>
         </Grid>

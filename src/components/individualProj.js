@@ -15,7 +15,8 @@ class IndividualProj extends Component{
           </CardText>
 
           <CardActions border>
-            <Button className="card-1-button"><a href="#" target="_blank">GitHub</a></Button>
+            <Button className="card-1-button"><a href="https://github.com/tandduong/My-Portfolio-Project-TanD" target="_blank">GitHub</a></Button>
+            <Button className="card-1-button"><a href="https://portfolio-tan.herokuapp.com/" target="_blank">Demo</a></Button>
           </CardActions>
 
           <CardMenu className="card-1-menu">
