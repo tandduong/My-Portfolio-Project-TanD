@@ -26,15 +26,17 @@ class IndividualProj extends Component{
 
         <Card className="card-1" shadow={5}>
           <CardTitle className="card-1-title">
-            Project #2
+            Llama Powers Project
           </CardTitle>
 
           <CardText>
-            Update soon... 
+          Built a website for sharing an information of the Llama; Developed by HTML5, CSS3 for the visual design; Added JavaScript for effects. 
+
           </CardText>
 
           <CardActions border>
-            <Button className="card-1-button"><a href="#" target="_blank">GitHub</a></Button>
+            <Button className="card-1-button"><a href="https://github.com/tandduong/llama-challenge" target="_blank">GitHub</a></Button>
+            <Button className="card-1-button"><a href="https://llqa-b2e4c.firebaseapp.com/" target="_blank">Demo</a></Button>
           </CardActions>
 
           <CardMenu className="card-1-menu">

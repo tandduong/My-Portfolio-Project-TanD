@@ -52,14 +52,14 @@ class Resume extends Component {
             </p>
             <hr/>
             <h5>Other Skills</h5>
-            <p>Java, GitHub/Gitlab, VS Code, Excel, Word, Minitab, Ubuntu</p>
+            <p>Java, GitHub/Gitlab, VS Code, Excel, Word, Minitab, Ubuntu, Heroku, Firebase</p>
             <hr/>
             <h5>Clubs Member</h5>
             <p>Vietnamese Student Association - VSA(11/2019)</p>
             <p>Software Engineering Club (08/2017)</p>
             <hr/>
             <h5>Cumulative GPA</h5>
-            <p>3.506</p>
+            <p>3.442</p>
             <p><strong>Dean's List: Fall 2017, Spring 2018</strong></p>
           </Cell>
           <Cell className="resume-right" col={8}>
@@ -73,6 +73,16 @@ class Resume extends Component {
             <hr/>
             <div className="courses">
             <h2>Related Courseworks</h2>
+            <Courses
+              startDate="August 2019"
+              endDate="December 2019"
+              courseDescription="Web-based Program"
+            />
+            <Courses
+              startDate="August 2019"
+              endDate="December 2019"
+              courseDescription="Operating System"
+            />
             <Courses
               startDate="Jan 2019"
               endDate="May 2019"
@@ -102,6 +112,18 @@ class Resume extends Component {
             </div>
             <h2>Experience</h2>
             <Experience
+              startDate = "1/11/2020"
+              jobName = "Capital Area Food Bank Volunteer"
+              jobDescription ="Volunteered as the helper for the Capital Food Bank; Helped setting vegetables and food and distributed them for needy households
+            "
+            />
+            <Experience
+              startDate = "1/10/2020"
+              jobName = "Vietnamese Embassy Volunteer"
+              jobDescription ="Volunteered for the Tet Night Event in Vietnamese Embassy; Helped guaranteeing the atmosphere of the event.
+            "
+            />
+            <Experience
               startDate = "22/11/2019"
               jobName = "ISA Café Volunteer"
               jobDescription ="Volunteered for the VSA club, helped setting up, serving food, and cleaned up"
@@ -120,8 +142,8 @@ class Resume extends Component {
             />
 
             <Skills
-              skill="CSS/SASS"
-              progress={90}
+              skill="CSS3/SASS"
+              progress={85}
             />
 
             <Skills
