@@ -46,15 +46,15 @@ class IndividualProj extends Component{
 
         <Card className="card-1" shadow={5}>
           <CardTitle className="card-1-title">
-            Project #3
+            Favorite Artists Project
           </CardTitle>
 
           <CardText>
-           Update soon... 
+            Build a tribute website for my favorite artists using Pagpiling.js. Finished in Feb 2020 
           </CardText>
 
           <CardActions border>
-            <Button className="card-1-button"><a href="#" target="_blank">GitHub</a></Button>
+            <Button className="card-1-button"><a href="https://github.com/tandduong/tan-fav-artists" target="_blank">GitHub</a></Button>
           </CardActions>
 
           <CardMenu className="card-1-menu">
