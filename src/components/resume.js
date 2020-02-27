@@ -68,7 +68,7 @@ class Resume extends Component {
               startYear={2017}
               endYear={2021}
               schoolName="Towson University"
-              schoolDescription="Bachelor of Science in Computer Science - no Minor Track"
+              schoolDescription="Bachelor of Science in Computer Science"
             />
             <hr/>
             <div className="courses">
